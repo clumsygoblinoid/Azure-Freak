@@ -1514,6 +1514,7 @@
 /obj/item/clothing/head/roguetown/helmet/heavy/eoran/alt
 	name = "eoran helmet"
 	desc = "A visage of beauty, this helm made in soft pink and beige reminds one of the grace of Eora."
+	icon = 'icons/roguetown/clothing/head.dmi'
 	icon_state = "helmet_eoraalt"
 	item_state = "helmet_eoraalt"
 	adjustable = CAN_CADJUST
