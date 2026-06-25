@@ -262,7 +262,7 @@
 /obj/item/clothing/suit/roguetown/shirt/robe/magegreen
 	color = "#759259"
 
-/obj/item/clothing/suit/roguetown/shirt/robe/magge
+/obj/item/clothing/suit/roguetown/shirt/robe/mageorange
 	color = "#bf6f39"
 
 /obj/item/clothing/suit/roguetown/shirt/robe/magered
