@@ -375,6 +375,14 @@
 	desc = "A complex covering of translucent pink and beige clothes. They carry the scent of flowers in them."
 	icon_state = "eoratabard"
 
+/obj/item/clothing/cloak/templar/eoran/alt
+	mob_overlay_icon = 'icons/roguetown/clothing/onmob/cloaks.dmi'
+	alternate_worn_layer = TABARD_LAYER
+	boobed = TRUE
+	name = "simple eoran tabard"
+	desc = "A complex covering of translucent pink and beige clothes. They carry the scent of flowers in them."
+	icon_state = "eoratabardalt"
+
 /obj/item/clothing/cloak/templar/xylixian
 	mob_overlay_icon = 'icons/roguetown/clothing/onmob/cloaks.dmi'
 	alternate_worn_layer = TABARD_LAYER
