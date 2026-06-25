@@ -381,7 +381,7 @@
 	boobed = TRUE
 	name = "simple eoran tabard"
 	desc = "A complex covering of translucent pink and beige clothes. They carry the scent of flowers in them."
-	icon_state = "eoratabardalt"
+	icon_state = "tabard_pink"
 
 /obj/item/clothing/cloak/templar/xylixian
 	mob_overlay_icon = 'icons/roguetown/clothing/onmob/cloaks.dmi'
