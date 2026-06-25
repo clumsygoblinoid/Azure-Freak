@@ -89,3 +89,11 @@
 	. = ..()
 	to_chat(user, span_warning ("The thorns prick me."))
 	user.adjustBruteLoss(4)
+
+/obj/item/flowercrown/eora
+	name = "crown of eora flowers"
+	desc = ""
+	item_state = "flower_crown_eora"
+	icon_state = "flower_crown_eora"
+	icon = 'modular_twilight_axis/icons/roguetown/clothing/head.dmi'
+	mob_overlay_icon = 'modular_twilight_axis/icons/roguetown/clothing/onmob/head.dmi'
