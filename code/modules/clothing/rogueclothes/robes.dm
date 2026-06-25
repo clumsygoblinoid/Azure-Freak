@@ -377,8 +377,8 @@
 	name = "eoran robe"
 	desc = "Holy robes, intended for use by followers of Eora"
 	body_parts_covered = CHEST|GROIN|ARMS|LEGS|VITALS
-	icon_state = "robes_pink"
-	item_state = "robes_pink"
+	icon_state = "robe_pink"
+	item_state = "robe_pink"
 	icon = 'icons/roguetown/clothing/armor.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/onmob/armor.dmi'
 	sleeved = 'icons/roguetown/clothing/onmob/armor.dmi'
