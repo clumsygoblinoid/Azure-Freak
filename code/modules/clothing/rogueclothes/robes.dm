@@ -381,13 +381,13 @@
 	item_state = "robes_pink"
 	icon = 'icons/roguetown/clothing/armor.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/onmob/armor.dmi'
-	sleeved = 'icons/roguetown/clothing/onmob/helpers/armor.dmi'
+	sleeved = 'icons/roguetown/clothing/onmob/armor.dmi'
 	boobed = TRUE
 	color = null
 	flags_inv = HIDEBOOB|HIDECROTCH
 	r_sleeve_status = SLEEVE_NORMAL
 	l_sleeve_status = SLEEVE_NORMAL
-	var/fanatic_wear = FALSE
+	var/open_wear = FALSE
 
 /obj/item/clothing/suit/roguetown/shirt/robe/eora/pink/alt
 	name = "open eoran robe"
@@ -397,7 +397,7 @@
 	icon_state = "straps_pink"
 	item_state = "straps_pink"
 	flags_inv = HIDEBOOB // This pretty much only prevents seeing underwear and or clipping if you have really big tits
-	fanatic_wear = TRUE
+	open_wear = TRUE
 
 /obj/item/clothing/suit/roguetown/shirt/robe/eora/attack_right(mob/user) // All this changes is the sprite which is okay
 	switch(fanatic_wear)
@@ -409,7 +409,7 @@
 			item_state = "straps_pink"
 			fanatic_wear = TRUE
 			flags_inv = HIDEBOOB
-			to_chat(usr, span_warning("Now wearing radically!"))
+			to_chat(usr, span_warning("Now wearing openly!"))
 		if(TRUE)
 			name = "eoran robe"
 			desc = "Holy robes, intended for use by followers of Eora"
