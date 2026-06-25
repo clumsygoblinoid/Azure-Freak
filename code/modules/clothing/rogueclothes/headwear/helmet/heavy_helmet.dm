@@ -1510,3 +1510,12 @@
 			\n\n'Look upon their works, ye mighty, and despair.'"
 	icon_state = "seebascinet"
 	item_state = "seebascinet"
+
+/obj/item/clothing/head/roguetown/helmet/heavy/eoran
+	name = "eoran helmet"
+	desc = "A visage of beauty, this helm made in soft pink and beige reminds one of the grace of Eora."
+	icon_state = "helmet_eoraalt"
+	item_state = "helmet_eoraalt"
+	icon = 'modular_twilight_axis/icons/roguetown/clothing/head.dmi'
+	mob_overlay_icon = 'modular_twilight_axis/icons/roguetown/clothing/onmob/head.dmi'
+	adjustable = CAN_CADJUST
