@@ -372,16 +372,16 @@
 
 //"I should port TA sprites, it'll be fun, 5 minute pr"
 
-/obj/item/clothing/suit/roguetown/shirt/robe/eora/white
+/obj/item/clothing/suit/roguetown/shirt/robe/eora/pink
 	slot_flags = ITEM_SLOT_ARMOR|ITEM_SLOT_SHIRT|ITEM_SLOT_CLOAK
 	name = "eoran robe"
 	desc = "Holy robes, intended for use by followers of Eora"
 	body_parts_covered = CHEST|GROIN|ARMS|LEGS|VITALS
-	icon_state = "eorarobesalt"
-	item_state = "eorarobesalt"
+	icon_state = "robes_pink"
+	item_state = "robes_pink"
 	icon = 'icons/roguetown/clothing/armor.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/onmob/armor.dmi'
-	sleeved = 'icons/roguetown/clothing/onmob/helpers/sleeves_armor.dmi'
+	sleeved = 'icons/roguetown/clothing/onmob/helpers/armor.dmi'
 	boobed = TRUE
 	color = null
 	flags_inv = HIDEBOOB|HIDECROTCH
@@ -389,13 +389,13 @@
 	l_sleeve_status = SLEEVE_NORMAL
 	var/fanatic_wear = FALSE
 
-/obj/item/clothing/suit/roguetown/shirt/robe/eora/white/alt
+/obj/item/clothing/suit/roguetown/shirt/robe/eora/pink/alt
 	name = "open eoran robe"
 	desc = "Used by more radical followers of the Eoran Church"
 	mob_overlay_icon = 'icons/roguetown/clothing/onmob/armor.dmi'
 	body_parts_covered = null // Keyhole should show boob size and the outfit is too open to get in the way of sex
-	icon_state = "eorastrapsalt"
-	item_state = "eorastrapsalt"
+	icon_state = "straps_pink"
+	item_state = "straps_pink"
 	flags_inv = HIDEBOOB // This pretty much only prevents seeing underwear and or clipping if you have really big tits
 	fanatic_wear = TRUE
 
@@ -405,8 +405,8 @@
 			name = "open eoran robe"
 			desc = "Used by more radical followers of the Eoran Church"
 			body_parts_covered = null
-			icon_state = "eorastraps"
-			item_state = "eorastraps"
+			icon_state = "straps_pink"
+			item_state = "straps_pink"
 			fanatic_wear = TRUE
 			flags_inv = HIDEBOOB
 			to_chat(usr, span_warning("Now wearing radically!"))
@@ -414,8 +414,8 @@
 			name = "eoran robe"
 			desc = "Holy robes, intended for use by followers of Eora"
 			body_parts_covered = CHEST|GROIN|ARMS|LEGS|VITALS
-			icon_state = "eorarobes"
-			item_state = "eorarobes"
+			icon_state = "robes_pink"
+			item_state = "robes_pink"
 			fanatic_wear = FALSE
 			flags_inv = HIDEBOOB|HIDECROTCH
 			to_chat(usr, span_warning("Now wearing normally!"))
